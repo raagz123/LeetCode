@@ -23,7 +23,7 @@ class Solution {
         for (int i = digits.length - 1; i >= 0; i--) {
             if (digits[i] != 9) {
                 digits[i]++;
-                break;
+                break;     // plz change this statement to "return digits;" As this violates th test case of [0,0].
             } else {
                 digits[i] = 0;
             }
